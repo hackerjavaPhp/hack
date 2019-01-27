@@ -1,0 +1,208 @@
+.main_reg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.open_reg {
+    width: 877px;
+    height: 630px;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+} 
+
+.cross_1 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.gradient {
+    background-color: #8b19b4;
+    /* IE9, iOS 3.2+ */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIHN0b3AtY29sb3I9IiNmNzFjYjQiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjA5OCIvPjxzdG9wIHN0b3AtY29sb3I9IiMwNzE1YjMiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIxIi8+PC9saW5lYXJHcmFkaWVudD48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI3ZzZ2cpIiAvPjwvc3ZnPg==);
+    background-image: -webkit-gradient(linear, 0% 0%, 100% 100%,color-stop(0.098, rgb(247, 28, 180)),color-stop(1, rgb(7, 21, 179)));
+    /* Android 2.3 */
+    background-image: -webkit-linear-gradient(top left,rgb(247, 28, 180) 9.8%,rgb(7, 21, 179) 100%);
+    /* IE10+ */
+    background-image: linear-gradient(to bottom right,rgb(247, 28, 180) 9.8%,rgb(7, 21, 179) 100%);
+    background-image: -ms-linear-gradient(top left,rgb(247, 28, 180) 9.8%,rgb(7, 21, 179) 100%);
+}
+ 
+/* IE8- CSS hack */
+@media \0screen\,screen\9 {
+    .gradient {
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fff71cb4",endColorstr="#ff0715b3",GradientType=0);
+    }
+}
+
+.open_reg_bl {
+    width: 50%;
+    height: 100%;
+    font-family: OpenSans;  
+}
+
+.open_reg_bl.gradient {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 36px;
+}
+
+.mr-top87 {
+    margin: 0 auto;
+    margin-top: 87px;
+}
+
+.open_reg_bl-pl {
+    width: 300px;
+    height: 52px;
+    border: 1px solid #e0e3e5;
+    display: flex;
+    justify-content: space-between
+}
+
+.open_reg_bl-pl, .open_reg_bl-pl input {
+    border-radius: 10px;
+}
+
+.open_reg_bl-pl input {
+    border: none;
+    border-left: 1px solid #e0e3e5;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    width: 233px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 16px;
+} 
+
+.open_reg_bl-wrp-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+}
+
+.open_reg_bl-pl input {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mr-top20 {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.btn_room { 
+    background:#1A76D2;
+    width: 100px;
+    height: 52px;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+ } 
+
+.open_reg_bl-pl2 {
+     width: 300px;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 20px;
+}
+
+.open_reg_bl-pl2 label {
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #afaeae;
+}
+
+.link_b1 {
+    color: #1a76d2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.link_b2, .link_b1 {
+    font-size: 14px;
+}
+
+.link_b2 {
+    color:#afaeae;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.open_an {
+    text-transform: lowercase;
+    font-family: 'Open Sans', sans-serif;
+    color: #afaeae;
+    font-size: 14px;
+}
+
+.line-bl {
+    background: #e0e3e5;
+    height: 1px;
+    width: 123px;
+}
+
+.open_reg_bl-pl3 {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.open_reg_bl-pl3 button {
+    width: 100%;
+}
+
+.btn-face {
+    color: #fff;
+    width: 300px;
+    height: 52px;
+    background-color: #3f6ca9;
+    border-radius: 10px;
+    border: none;
+}
+
+.open_reg_bl-pl3 img:first-child {
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 936px;
+    margin: 0 auto;
+}
+
+header {
+    height: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #fff;
+}
+
+.other_rw {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrp-user {
+    display: flex;
+    align-items: center;
+}
